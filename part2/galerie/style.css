@@ -1,0 +1,14 @@
+.arbre{
+    width: 300px;
+    height: auto;
+}
+
+.bloc_arbres_ligne{
+    display:flex;
+    flex-direction: row;
+}
+
+.bloc_arbres_colonne{
+    display:flex;
+    flex-direction: column;
+}

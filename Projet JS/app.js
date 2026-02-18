@@ -19,7 +19,7 @@ function creerBloc(objetArticles){
     const divBloc = document.createElement("div");
     divBloc.setAttribute("class", "bloc");
 
-    const img = document.createElement("img");
+    const img = document.createElement('img');
     img.setAttribute("src", objetArticles.image);
     img.setAttribute("alt", objetArticles.alt);
     img.setAttribute("class", "photo");
